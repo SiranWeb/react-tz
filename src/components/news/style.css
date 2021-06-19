@@ -1,0 +1,20 @@
+.news_title {
+    text-align: center;
+}
+
+.news_list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news_item {
+    padding: 10px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block;
+}
+.news_item > h2 {
+    font-size: 22px;
+    text-align: center;
+}
